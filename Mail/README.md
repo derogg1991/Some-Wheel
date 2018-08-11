@@ -14,7 +14,7 @@ content = 'mail content'
 a = SM.SentMail(f, p, smtp, taddr, t, content)  
 a.sent_mail()
 ```
-# 需要发送邮件,需要多加两个参数
+# 需要发送附件,需要多加两个参数
 ``` python
 f = 'some body@some mail'  
 p = 'password'  
